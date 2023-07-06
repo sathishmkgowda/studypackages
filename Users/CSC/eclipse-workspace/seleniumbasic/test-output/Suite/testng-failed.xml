@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="value" value="./softwares/geckodriver.exe"/>
+    <parameter name="url" value="https://demowebshop.tricentis.com"/>
+    <parameter name="key" value="webdriver.gecko.driver"/>
+    <classes>
+      <class name="frameworkusingTestNG_POM.testscripts5">
+        <methods>
+          <include name="openapp"/>
+          <include name="closeapp"/>
+          <include name="signup" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- frameworkusingTestNG_POM.testscripts5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
